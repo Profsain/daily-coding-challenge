@@ -1,0 +1,11 @@
+Question 1: Counting Characters
+Write a function that takes a string as input and counts the occurrence of each character. Return the count of each character as a dictionary or map.
+Example:
+Input: "hello"
+Output: {'h': 1, 'e': 1, 'l': 2, 'o': 1}
+
+Question 2: Finding Duplicates
+Write a function that takes an array of numbers as input and returns an array of any duplicate numbers found in the input array.
+Example:
+Input: [1, 2, 3, 4, 2, 5, 6, 3]
+Output: [2, 3]
