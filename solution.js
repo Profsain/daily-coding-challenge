@@ -15,8 +15,29 @@ function countChar(str) {
             charObj[str[i]]++;
         }
     }
-    
+
     return charObj;
 }
 countChar('hello')
 countChar('acountability')
+
+// Solution Q3
+// create empty array
+// sort the array
+// loop through the array
+// compare element, 
+// if same element, push element to array
+
+function findDuplicate(numbers) {
+    const duplicateNums = [];
+    let sortedNums = numbers.sort((a, b) => a - b);
+
+    for (let i = 0; i < sortedNums.length; i++) {
+        if (sortedNums[i] === sortedNums[i + 1]) {
+            duplicateNums.push(sortedNums[i])
+        }
+    }
+    
+    return duplicateNums;
+}
+findDuplicate([1, 2, 3, 4, 2, 5, 6, 3]);
