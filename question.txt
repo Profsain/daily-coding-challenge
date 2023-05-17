@@ -9,3 +9,9 @@ Write a function that takes an array of numbers as input and returns an array of
 Example:
 Input: [1, 2, 3, 4, 2, 5, 6, 3]
 Output: [2, 3]
+
+Question 3: Find the Longest Word in a String
+Return the length of the longest word in the provided sentence.
+Example:
+findLongestWordLength("The quick brown fox jumped over the lazy dog");
+Output: 6
