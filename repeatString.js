@@ -1,4 +1,4 @@
-function repeatStringNumTimes(str, num) {
+const repeatStringNumTimes = (str, num) => {
   let newStr = "";
   if (num <= 0) {
     console.log(newStr)
